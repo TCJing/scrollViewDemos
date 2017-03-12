@@ -13,6 +13,8 @@
 		88AA6C141E754DCD00171C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AA6C121E754DCD00171C49 /* Main.storyboard */; };
 		88AA6C161E754DCD00171C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AA6C151E754DCD00171C49 /* Assets.xcassets */; };
 		88AA6C191E754DCD00171C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AA6C171E754DCD00171C49 /* LaunchScreen.storyboard */; };
+		88AA6C221E754FF000171C49 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA6C211E754FF000171C49 /* OneViewController.m */; };
+		88AA6C241E7563D300171C49 /* IMG_0084.png in Resources */ = {isa = PBXBuildFile; fileRef = 88AA6C231E7563D300171C49 /* IMG_0084.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		88AA6C151E754DCD00171C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88AA6C181E754DCD00171C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88AA6C1A1E754DCD00171C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88AA6C201E754FF000171C49 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		88AA6C211E754FF000171C49 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		88AA6C231E7563D300171C49 /* IMG_0084.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0084.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,8 @@
 		88AA6C081E754DCD00171C49 /* scrollViewDemos */ = {
 			isa = PBXGroup;
 			children = (
+				88AA6C201E754FF000171C49 /* OneViewController.h */,
+				88AA6C211E754FF000171C49 /* OneViewController.m */,
 				88AA6C0C1E754DCD00171C49 /* AppDelegate.h */,
 				88AA6C0D1E754DCD00171C49 /* AppDelegate.m */,
 				88AA6C0F1E754DCD00171C49 /* ViewController.h */,
@@ -67,6 +74,7 @@
 				88AA6C171E754DCD00171C49 /* LaunchScreen.storyboard */,
 				88AA6C1A1E754DCD00171C49 /* Info.plist */,
 				88AA6C091E754DCD00171C49 /* Supporting Files */,
+				88AA6C231E7563D300171C49 /* IMG_0084.png */,
 			);
 			path = scrollViewDemos;
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 				88AA6C191E754DCD00171C49 /* LaunchScreen.storyboard in Resources */,
 				88AA6C161E754DCD00171C49 /* Assets.xcassets in Resources */,
 				88AA6C141E754DCD00171C49 /* Main.storyboard in Resources */,
+				88AA6C241E7563D300171C49 /* IMG_0084.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +163,7 @@
 				88AA6C111E754DCD00171C49 /* ViewController.m in Sources */,
 				88AA6C0E1E754DCD00171C49 /* AppDelegate.m in Sources */,
 				88AA6C0B1E754DCD00171C49 /* main.m in Sources */,
+				88AA6C221E754FF000171C49 /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
